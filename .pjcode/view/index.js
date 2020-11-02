@@ -4,7 +4,7 @@ const fs = require('fs');
 // module.exports = function() {
 const base = process.env.INIT_CWD;
 const name = process.argv[2];
-if (!/^([A-Z][a-z0-9]*){2,}$/.test(name)) {
+if (!/^([a-zA-Z][a-z0-9]*){2,}$/.test(name)) {
   console.log(chalk.red(`${name}: Incorrect name convention...`));
   process.exit();
 }
@@ -14,7 +14,7 @@ if (fs.existsSync(path.join(base, name))) {
 } else {
   fs.mkdirSync(path.join(base, name));
 }
-const files = ['index.tsx', 'style.scss'];
+const files = ['index.jsx', 'index.scss'];
 files.forEach(file => {
   fs.createWriteStream(path.join(base, name, file)).write(
     require(`./${file}.js`)(name)

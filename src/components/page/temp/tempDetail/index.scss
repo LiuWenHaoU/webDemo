@@ -1,0 +1,23 @@
+/* eslint-disable */
+/**柯礼钦
+ * 9/21/2020, 11:13:20 AM
+ * doc comment for the file goes here
+ */
+
+/** Happy Coding */
+.temp-detail {
+  &-main {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 20px;
+    & .padding-tb {
+      padding: 20px 0;
+    }
+    &-primary_title {
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}

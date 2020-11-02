@@ -1,0 +1,23 @@
+/* eslint-disable */
+/**柯礼钦
+ * 9/18/2020, 9:57:09 AM
+ * doc comment for the file goes here
+ */
+
+/** Happy Coding */
+.temp-table-mgt {
+  &-main {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    &_style {
+      font-weight: bold;
+    }
+    &-form{
+      padding: 20px;
+    }
+    &-table {
+      padding: 0 20px;
+    }
+  }
+}

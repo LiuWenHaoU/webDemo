@@ -1,0 +1,21 @@
+/* eslint-disable */
+/**柯礼钦
+ * 4/7/2020, 11:43:26 AM
+ * doc comment for the file goes here
+ */
+
+/** Happy Coding */
+.house-info {
+  &-main {
+    padding: 0 18px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    &-address {
+      display: flex;
+    }
+    &-fuc {
+      margin-left: 20px;
+      cursor: pointer;
+    }
+  }
+}

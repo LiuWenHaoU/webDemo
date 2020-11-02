@@ -1,0 +1,44 @@
+@import './style/reset.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'DFPLiJinHeiW8';
+  src: url('./asset/font/DFPLiJinHeiW8.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+/* content页面样式 */
+.layout-content-style {
+  padding: 22px 24px;
+  background: #f0f2f5;
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+

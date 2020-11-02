@@ -6,13 +6,9 @@ const {
 } = process.env;
 
 exports.headers = () => [
-  `/**`,
-  // cp .env .env.local
-  // make change to .env.local
-  ` * \`\`\``,
-  ` * ${REACT_APP_CODER} <${REACT_APP_EMAIL}>`,
+  '/* eslint-disable */',
+  `/**${REACT_APP_CODER}`,
   ` * ${new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' })}`,
-  ` * \`\`\``,
   ` * doc comment for the file goes here`,
   ` */`,
   ``,
